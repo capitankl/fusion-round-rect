@@ -136,9 +136,9 @@ def addCommandToUI():
 def run(context):
     try:
         addCommandToUI()
-        ui.messageBox('Draw Rounded Square Add-In Loaded')
+        #ui.messageBox('Draw Rounded Square Add-In Loaded')
     except:
-        ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
+        #ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
 
 def stop(context):
     try:
@@ -152,6 +152,6 @@ def stop(context):
         if control:
             control.deleteMe()
         
-        ui.messageBox('Draw Rounded Square Add-In Unloaded')
+        #ui.messageBox('Draw Rounded Square Add-In Unloaded')
     except:
         ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
