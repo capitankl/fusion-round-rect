@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"addin",
+	"id":	"699abdbf-a49f-48d9-8c1a-218dc848f3bd",
+	"author":	"Carlos Kantor",
+	"description":	{
+		"":	"Creates a rounded square shape on a point."
+	},
+	"version":	"1.1",
+	"runOnStartup":	true,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
